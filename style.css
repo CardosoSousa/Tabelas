@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+h1{
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 2px 2px black;
+}
+
+table.tabela{
+    width: 400px;
+    border-collapse: collapse;
+    margin: 0 auto;
+    box-shadow: 3px 3px 10px  rgba(0, 0, 0, 0.281);
+}
+
+tr.linha{
+    background-color: gray;
+}
+
+td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+td.dado{
+    background-color: yellow;
+}
